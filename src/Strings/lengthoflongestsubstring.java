@@ -2,6 +2,8 @@ package Strings;
 
 /**
  * 3 !!
+ * some questions that would be good to ask
+ * what are all the characters allowed are spaces allowed.
  */
 class lengthoflongestsubstring {
     public static int problem(String s) {
