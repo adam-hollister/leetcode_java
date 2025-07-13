@@ -1,3 +1,7 @@
+
+/**
+ *
+ */
 class Template {
     public static int problem(String s) {
 
@@ -12,11 +16,11 @@ class Template {
         runTest("pwwkew", 3);
     }
 
-    static int runNumber = 0;
+    static int runNumber = 1;
     // Test runner (throws AssertionError if test fails)
     private static void runTest(String param1, int expected) {
         int result = problem(param1);
-        assert result == expected : String.format("❌ Failed: run %d", runNumber++);
-        System.out.println("✅ Passed");
+        assert result == expected : String.format("❌ Failed: run %d", runNumber);
+        System.out.println("✅ Passed:" + runNumber++);
     }
 }
